@@ -32,7 +32,7 @@ public class CouponsEntity {
     private List<PurchasesEntity> purchases;
 
     public CouponsEntity() {
-        //constructor
+
     }
 
     public CouponsEntity(int id, String title, String description, float price, int companyId, int categoryId, Date startDate, Date endDate, int amount, String imageUrl) {
